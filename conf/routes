@@ -3,7 +3,10 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index
+GET     /                           controllers.Message.show
+GET     /login                      controllers.Sessions.login
+POST    /login                      controllers.Sessions.authenticate
+GET     /logout                     controllers.Sessions.logout
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

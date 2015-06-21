@@ -1,7 +1,13 @@
-@(message: String)
+@()
 
-@main("Welcome to Play") {
+@import helper._
 
-    @play20.welcome(message)
+@main("Login") {
+
+  <form method=POST action="/login">
+    email: <input type="text" name="email"/>
+    password: <input type="password" name="password"/>
+    <input type="submit" value="submit"/>
+  </form>
 
 }

@@ -1,7 +1,8 @@
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "3.0.0")
 
 // The Play plugin
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.4.0")
+// addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.4.0")
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.3.8")
 
 // web plugins
 
