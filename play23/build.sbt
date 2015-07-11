@@ -1,4 +1,4 @@
-name := """play-auth-scala-sandbox"""
+name := """play23-auth-scala-sandbox"""
 
 version := "0.1.0-SNAPSHOT"
 
